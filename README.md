@@ -1,6 +1,6 @@
 # Paypal Integration
 
-Check it out [here!]()
+Check it out [here!](https://ianbrdeguzman.github.io/paypal-integration/)
 
 #### Created using:
 
