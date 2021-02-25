@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Paypal SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AYdDUYsemUnw9QpPj3OwwI8sdtyS0TZQDHbWDWr4v0i7j8SS6NmSWBsj_bYyoW1Q0NR3VHvHl1Lk9RYr&disable-funding=credit,card"></script>
+    <title>Paypal Integration</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="app-account">
+            <p>Sample account:</p>
+            <p>sb-jj9vc5217264@personal.example.com</p>
+            <p>Password:</p>
+            <p>TG_xU>w6</p>
+        </div>
+        <div class="app-input">
+            <label>Force to throw error
+                <input type="checkbox">
+            </label>
+            <label>Amount to pay
+                <input type="number" value="5">
+            </label>
+        </div>
+        <div id="paypal-button-container"></div>
+    </div>
+</body>
+</html>

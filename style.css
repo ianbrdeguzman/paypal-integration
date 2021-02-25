@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-container {
+    width: 95vw;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 1rem 1rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+.app-container .app-account {
+    width: 100%;
+}
+.app-container .app-account p {
+    margin: 1rem 0;
+}
+.app-container .app-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+}
+input[type="number"] {
+    font-family: inherit;
+    width: 30px;
+    text-align: right;
+    padding: 0.1rem;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid #ffc439;
+    outline: none;
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#paypal-button-container {
+    font-family: inherit;
+    margin: 1rem;
+}
